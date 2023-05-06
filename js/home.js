@@ -1,8 +1,10 @@
+
+/*------------menu desplegable----*/
 const button = document.querySelector('.button')
 const nav = document.querySelector('.nav')
 
 button.addEventListener('click', ()=>{
-    nav.classList.toggle('activo')
+    nav.classList.toggle('activo');
 })
 
 
@@ -13,4 +15,17 @@ menuOpciones.forEach((li) => {
         nav.classList.remove('activo'));
         
         
+        
 })
+
+
+
+
+/*const items = nav.querySelectorAll('.items');
+
+items.forEach((a)=>{
+    a.addEventListener('click', ()=>{
+        a.classList.add('select');
+        console.log(a.toggle)
+    })
+})*/
