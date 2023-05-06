@@ -1,0 +1,64 @@
+/*------titulo ---*/
+.content-titulo{
+    text-align: center;
+    margin: 20px;
+    font-style: italic;
+    font-weight: 900;
+}
+.titulo {
+   display: inline-block;
+   position: relative;
+   font-size: 30px;
+      
+}
+
+h1::after,h1::before{
+    content:'';
+    position: absolute;
+    width: 120px;
+    height: 3px;
+    background-color: black;
+    top:0.6em;
+}
+
+h1::before{
+    left: -140px;
+}
+h1::after{
+    right: -140px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:681px){
+    .content-titulo{
+        font-weight: 600;
+    }
+    .titulo{
+        font-size: 20px;
+    }
+    h1::after,h1::before{
+      
+        width: 0px;
+        
+    }
+    h1::before{
+        left: -0px;
+    }
+    h1::after{
+        right: -0px;
+    }
+
+}
