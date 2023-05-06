@@ -11,8 +11,7 @@
    font-size: 30px;
       
 }
-
-h1::after,h1::before{
+.titulo::after,.titulo::before{
     content:'';
     position: absolute;
     width: 120px;
@@ -21,10 +20,10 @@ h1::after,h1::before{
     top:0.6em;
 }
 
-h1::before{
+.titulo::before{
     left: -140px;
 }
-h1::after{
+.titulo::after{
     right: -140px;
 }
 
@@ -49,15 +48,15 @@ h1::after{
     .titulo{
         font-size: 20px;
     }
-    h1::after,h1::before{
+    .titulo::after,.titulo::before{
       
         width: 0px;
         
     }
-    h1::before{
+    .titulo::before{
         left: -0px;
     }
-    h1::after{
+    .titulo::after{
         right: -0px;
     }
 
