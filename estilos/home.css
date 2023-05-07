@@ -56,7 +56,7 @@
   /*--------cuando se selecciona el menu ----*/
   
   a:is(:link, :active, :visited).active{
-    background: rgb(221, 243, 19);;
+    background: rgb(221, 243, 19);
     padding: 10px 30px;
   
     border-radius: 20px;
