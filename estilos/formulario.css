@@ -13,7 +13,7 @@ body {
 }
 
 form {
-	background-color: #F5F5F5;
+	background-color: #3db2cf;
 	padding: 30px;
 	border-radius: 10px;
 	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
@@ -28,9 +28,17 @@ label {
 	margin-bottom: 10px;
 }
 
+/* para quitar las flechitas del input number*/
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
 input[type="text"],
 input[type="email"],
-input[type="tel"],
+input[type="number"],
 textarea {
 	width: 100%;
 	padding: 10px;
@@ -65,4 +73,12 @@ input[type="submit"]:hover {
 .contactenos{
 	text-align: center;
 	text-size-adjust: 10px;
+}
+
+.mapa{
+	display: flex;
+	justify-content: center;
+	height: 10vh;
+	margin-top: 5%;
+	margin-bottom: 5%;
 }
