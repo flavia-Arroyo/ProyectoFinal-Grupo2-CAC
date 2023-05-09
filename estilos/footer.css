@@ -1,0 +1,211 @@
+footer{
+    width: 100%;
+    padding:50px 0px;
+    background-image: url(../recursos/background-footer.svg);
+    background-size: cover;
+    
+    
+
+}
+.container__footer{
+    display: flex;
+   
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    max-width: 1200px;
+    margin:auto;
+    margin-top: 100px;
+}
+
+.box__footer{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.box__footer .logo__footer img{
+    width: 180px;
+
+}
+
+.box__footer h2{
+    margin-top: 110px;
+    color:#343434;
+    font-weight: 700;
+}
+.box__footer a{
+    margin-top: 10px;
+    color:#7a7a7a;
+    font-weight: 600;
+    text-decoration: none;
+}
+.box__footer a:hover{
+    opacity: .8;
+}
+.contacto i, .box__footer i{
+    font-size: 20px;
+    margin-right: .5em;
+}
+.box__copyright{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    padding: 0px 40px;
+}
+.box__copyright p{
+    margin-top: 20px;
+    color:#7a7a7a;
+}
+.box__copyright hr{
+    border: none;
+    height: 1px;
+    background-color: #7a7a7a;
+
+}
+
+/*@media screen and (max-width:830px){
+    .container__footer{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}*/
+
+/* ==========================================================================
+	Estilos para un especto acostado pero en dispositivos medianos
+========================================================================== */
+@media screen and (orientation:landscape) and (max-width: 980px){
+    
+    .container__footer{
+       font-size: 12px;
+        width: 740px;
+      }
+ }
+
+ /* ==========================================================================
+	Estilos para un espect acostado pero en dispositivos chicos
+========================================================================== */
+@media screen and (orientation:landscape) and (max-width: 720px){
+
+    .container__footer{
+        font-size: 12px;
+         width: 600px;
+       }
+
+       .box__footer .logo__footer img{
+        width: 120px;
+    
+    }
+    .box__footer{
+        padding: 4px;
+    }
+}
+
+/* ==========================================================================
+	Media Queries
+========================================================================== */
+@media only screen and (max-width: 1600px) {
+	
+    .container__footer{
+        width: 1140px;
+    }
+
+}
+
+/* ==========================================================================
+	Media Queries
+========================================================================== */
+@media only screen and (max-width: 1024px) {
+    .box__footer .logo__footer img{
+        width: 140px;
+    
+    }
+    .box__footer{
+        font-weight: 200;
+    }
+    .container__footer{
+        width: 740px;
+        font-size: 14px;
+    }
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 760px){
+    .container__footer{
+        width: 700px;
+        font-size: 12px;
+    }
+
+}
+
+
+
+
+
+
+/* ==========================================================================
+	Media Queries
+========================================================================== */
+@media only screen and (max-width: 680px) {
+   
+    .container__footer{
+        flex-direction: column;
+        justify-items: center;
+        justify-content: center;
+        align-content: center;
+        align-items: flex-start;
+        width:100%;
+
+        }
+	
+}
+
+
+
+
+
+
+/* ==========================================================================
+	Media Queries
+========================================================================== */
+@media only screen and (max-width: 590px) {
+	
+}
+
+
+
+
+
+/* ==========================================================================
+	Media Queries
+========================================================================== */
+@media only screen and (max-width: 480px) {
+	
+}
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+	Media Queries
+========================================================================== */
+@media only screen and (max-width: 370px) {
+	
+}
+
+
+
+
+ 

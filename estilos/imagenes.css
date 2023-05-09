@@ -1,0 +1,42 @@
+
+
+
+.slider{
+    
+    width:100%;
+    display: flex;
+    
+    margin: 20px 0px;
+   
+    overflow: hidden;
+}
+.slider .slide-track{
+    display:flex;
+   
+   
+    animation: scroll 40s linear infinite;
+    -webkit-animation: scroll 40s linear infinite;
+    width: calc(400px * 22);
+}
+
+.slider .slide{
+    width: 400px;
+    height: 400px;
+}
+.slider .slide img{
+    width: 100%;
+
+}
+@keyframes scroll{
+    0%{
+        -webkit-transform:traslatex(0);
+        transform:translatex(0);
+    }
+    100%{
+        -webkit-transform:traslatex(calc(-400px * 6));
+        transform:translatex(calc(-400px * 6));
+
+    }
+}
+
+
