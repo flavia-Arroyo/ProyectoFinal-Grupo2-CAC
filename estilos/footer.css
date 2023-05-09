@@ -4,6 +4,7 @@ footer{
     background-image: url(../recursos/background-footer.svg);
     background-size: cover;
     
+    
 
 }
 .container__footer{
@@ -11,7 +12,7 @@ footer{
    
     flex-wrap: wrap;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: flex-end;
     max-width: 1200px;
     margin:auto;
     margin-top: 100px;
@@ -62,10 +63,149 @@ footer{
 
 }
 
-@media screen and (max-width:830px){
+/*@media screen and (max-width:830px){
     .container__footer{
         flex-direction: column;
         justify-content: center;
         align-items: center;
     }
+}*/
+
+/* ==========================================================================
+	Estilos para un especto acostado pero en dispositivos medianos
+========================================================================== */
+@media screen and (orientation:landscape) and (max-width: 980px){
+    
+    .container__footer{
+       font-size: 12px;
+        width: 740px;
+      }
+ }
+
+ /* ==========================================================================
+	Estilos para un espect acostado pero en dispositivos chicos
+========================================================================== */
+@media screen and (orientation:landscape) and (max-width: 720px){
+
+    .container__footer{
+        font-size: 12px;
+         width: 600px;
+       }
+
+       .box__footer .logo__footer img{
+        width: 120px;
+    
+    }
+    .box__footer{
+        padding: 4px;
+    }
 }
+
+/* ==========================================================================
+	Media Queries
+========================================================================== */
+@media only screen and (max-width: 1600px) {
+	
+    .container__footer{
+        width: 1140px;
+    }
+
+}
+
+/* ==========================================================================
+	Media Queries
+========================================================================== */
+@media only screen and (max-width: 1024px) {
+    .box__footer .logo__footer img{
+        width: 140px;
+    
+    }
+    .box__footer{
+        font-weight: 200;
+    }
+    .container__footer{
+        width: 740px;
+        font-size: 14px;
+    }
+
+}
+
+
+
+
+
+
+
+@media only screen and (max-width: 760px){
+    .container__footer{
+        width: 700px;
+        font-size: 12px;
+    }
+
+}
+
+
+
+
+
+
+/* ==========================================================================
+	Media Queries
+========================================================================== */
+@media only screen and (max-width: 680px) {
+   
+    .container__footer{
+        flex-direction: column;
+        justify-items: center;
+        justify-content: center;
+        align-content: center;
+        align-items: flex-start;
+        width:100%;
+
+        }
+	
+}
+
+
+
+
+
+
+/* ==========================================================================
+	Media Queries
+========================================================================== */
+@media only screen and (max-width: 590px) {
+	
+}
+
+
+
+
+
+/* ==========================================================================
+	Media Queries
+========================================================================== */
+@media only screen and (max-width: 480px) {
+	
+}
+
+
+
+
+
+
+
+
+
+
+/* ==========================================================================
+	Media Queries
+========================================================================== */
+@media only screen and (max-width: 370px) {
+	
+}
+
+
+
+
+ 

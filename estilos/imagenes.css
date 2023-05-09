@@ -3,7 +3,7 @@
 
 .slider{
     
-    width:98vw;
+    width:100%;
     display: flex;
     
     margin: 20px 0px;
@@ -38,9 +38,5 @@
 
     }
 }
-@media screen and (max-width:723px){
-    .slider{
-        width: 90vw;
-    }
-}
+
 

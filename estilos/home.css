@@ -70,11 +70,11 @@
 
 
   .banner__imagen{
-    background: url("../recursos/banner.png") no-repeat center/cover;
-   
-    height: calc(100vh - 51px);
+    background: url("../recursos/banner2.jpg") no-repeat center;
+    opacity: .8;
+    height: calc(100vh - 100px);
     animation: banner 10s infinite;
-    
+   
    
 }
 .tituloAnimado{
@@ -103,40 +103,76 @@
     transform: translate(-50%, -50%);
 }
 
-  @media screen and (max-width:681px){
-    .header .button{
-      display: block;
-      cursor: pointer;
-    }
-    .header{
-        justify-content: space-around;
-        align-items: center;
-    }
+/* ==========================================================================
+	Estilos para un especto acostado pero en dispositivos medianos
+========================================================================== */
+@media screen and (orientation:landscape) and (max-width: 980px){
+  .li a{
+   font-size: 16px;
+  } 
+}
+ 
 
-    .nav{
-        height: 100%;
-        margin-top: 100px;
-        background: #F6ECE0;
-        position: fixed;
-        top:0;
-        right: -300px;
-        padding: 0 40px;
-       
-    }
-    .nav .ul{
-        flex-direction: column;
-    }
-    .nav .ul li{
-        margin: 20px 0px;
-    }
-    .header .nav.activo{
-        display: block; 
-        right:0;
-        pointer-events: auto;
-        background-color: #F6ECE0;
-  
-      }
-
-   
-  
+/* ==========================================================================
+	Media Queries
+========================================================================== */
+@media only screen and (max-width: 846px) {
+  .li a{
+    font-size: 16px;
   }
+
+}
+
+/* ==========================================================================
+	Media Queries
+========================================================================== */
+@media only screen and (max-width: 590px) {
+	.header{
+    flex-wrap: nowrap;
+       
+  }
+  a:is(:link, :active, :visited).active{
+    padding:10px;
+  }
+  
+}
+
+/* ==========================================================================
+	Media Queries
+========================================================================== */
+@media only screen and (max-width: 480px) {
+  .header .button{
+    display: block;
+    cursor: pointer;
+  }
+  .header{
+      justify-content: space-around;
+      align-items: center;
+  }
+
+  .nav{
+      height: 100%;
+      margin-top: 100px;
+      background: #F6ECE0;
+      position: fixed;
+      top:0;
+      right: -300px;
+      padding: 0 40px;
+     
+  }
+  .nav .ul{
+      flex-direction: column;
+  }
+  .nav .ul li{
+      margin: 20px 0px;
+  }
+  .header .nav.activo{
+      display: block; 
+      right:0;
+      pointer-events: auto;
+      background-color: #F6ECE0;
+
+    }
+
+	
+}
