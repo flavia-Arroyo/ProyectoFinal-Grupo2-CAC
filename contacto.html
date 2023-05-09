@@ -7,9 +7,10 @@
     <link rel="stylesheet" href="estilos/home.css">
     <link rel="stylesheet" href="estilos/reset.css">
     <link rel="stylesheet" href="estilos/footer.css">
-   
+    <link rel="stylesheet"  href="estilos/formulario.css">
     <link rel="stylesheet" href="estilos/titulo.css">
     <script defer src="js/activePage.js"></script>
+
     <title>Pagina Contacto</title>
 </head>
 <body>
@@ -39,6 +40,23 @@
         
     </header>
    <!-----------------------CODIGO CONTACTO     ------------------>
+
+   <div class="contenedor">
+    <form id="miFormulario" onsubmit="validarFormulario(event)">
+        <h2 class="contactenos">CONTACTANOS</h2>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        <label for="telefono">Teléfono:</label>
+        <input type="tel" id="telefono" name="telefono" required>
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" required></textarea>
+        <input type="submit" value="Enviar">
+    </form>
+</div>
+   
+   
     <footer>
         <div class="container__footer">
             <div class="box__footer">
@@ -106,6 +124,7 @@
         </div>
     </footer>
     
+    <script src="js/formulario.js"></script>
     <script src="https://kit.fontawesome.com/7fda2717d4.js" crossorigin="anonymous"></script>
     <script src="js/home.js"></script>
 </body>
