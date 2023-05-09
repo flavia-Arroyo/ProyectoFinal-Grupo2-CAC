@@ -106,3 +106,46 @@
     box-shadow: 1px 1px 30px 0px  #449de6;
 
 }
+
+/* ==========================================================================
+	Estilos para un espect acostado pero en dispositivos chicos
+========================================================================== */
+@media screen and (orientation:landscape) and (max-width: 720px){
+    .contenedor_cartas{
+        max-width: 700px;
+    }
+
+    .card{
+        width: 300px;
+    }
+    .body_card_back input{
+       
+        font-size: 12px;
+    }
+
+	
+}
+
+@media only screen and (max-width: 760px){
+    .contenedor_cartas{
+        max-width: 700px;
+    }
+
+    .card{
+        width: 300px;
+    }
+    .body_card_back input{
+       
+        font-size: 12px;
+    }
+
+	
+}
+
+
+/* ==========================================================================
+	Media Queries
+========================================================================== */
+@media only screen and (max-width: 590px) {
+	
+}
