@@ -7,10 +7,12 @@
     <link rel="stylesheet" href="estilos/home.css">
     <link rel="stylesheet" href="estilos/reset.css">
     <link rel="stylesheet" href="estilos/footer.css">
-   
+    <link rel="stylesheet" href="estilos/imagenes.css">
     <link rel="stylesheet" href="estilos/titulo.css">
+    <link rel="stylesheet" href="estilos/cartas.css">
+    <link rel="stylesheet" href="estilos/servicios.css">
     <script defer src="js/activePage.js"></script>
-    <title>Pagina Servicios</title>
+    <title>Pagina Home</title>
 </head>
 <body>
     <header class="header">
@@ -21,10 +23,10 @@
             
             <nav class="nav">
                 <ul class="ul">
-                    <li class="li"><a href="/index.html" class="items">Home</a></li>
-                    <li class="li"><a href="/quienessomos.html" class="items">Quienes Somos</a></li>
-                    <li class="li"><a href="/servicios.html" class="items">Servicios</a></li>
-                    <li class="li"><a href="/contacto.html" class="items">Contacto</a></li>
+                    <li class="li"><a href="/index.html" class="">Home</a></li>
+                    <li class="li"><a href="/quienessomos.html" class="">Quienes Somos</a></li>
+                    <li class="li"><a href="/servicios.html" class="">Servicios</a></li>
+                    <li class="li"><a href="/contacto.html" class="">Contacto</a></li>
     
                 </ul>
                 
@@ -39,14 +41,78 @@
         
     </header>
 
-    <!---------------Codigo servicios    -->
+    <section class="banner">
+       
+            <div class="banner__imagen"></div>
+           
+            <h1 class="banner__titulo"><span class="typed"></span></h1>
+
+          
+
+    </section>
 
 
 
+<section id="contenido">
+    <div class="content-titulo">
+        <h1 class="titulo">PELUQUERIA FEMENINA</h1>
+    </div>
+    <div id="imagen_femenino"></div>
+        <article id="presentacion">
+            <p>
+                <li>Alisado</li>
+                <li>Antifriz</li>
+                <li>Peinados</li>
+                <li>Corte</li>
+                <li>Nutrición</li>
+                <li>Shock de Keratina</li>
+                <li>Color</li>
+                <li>Permanente</li>
+                <li>Brushing</li>
+                <li>Lavado</li>
+            </p>
+        </article>
+</section>
 
-    
-  
-    <footer>
+<section id="contenido">
+    <div class="content-titulo">
+        <h1 class="titulo">PELUQUERIA MASCULINA</h1>
+    </div>
+    <div id="imagen_masculino"></div>
+        <article id="presentacion">
+            <p>
+                <li>Corte</li>
+                <li>Barba</li>
+                <li>Color</li>
+                <li>Alisado</li>
+                <li>Decoloración</li>
+                <li>Lavado</li>
+                <li>Niños</li>
+            </p>
+        </article>
+</section>
+
+<section id="contenido">
+    <div class="content-titulo">
+        <h1 class="titulo">MANOS Y PIES</h1>
+    </div>
+    <div id="imagen_manicura"></div>
+        <article id="presentacion">
+            <p>
+                <li>Manicure classic</li>
+                <li>Manicure premium</li>
+                <li>Esmaltado permanente</li>
+                <li>Kapping</li>
+                <li>Nail Art</li>
+                <li>Spa de Pies</li>
+                <li>Pestañas</li>
+                <li>Cejas</li>
+                <li>Depilación</li>
+            </p>
+        </article>
+</section>
+
+<footer>
         <div class="container__footer">
             <div class="box__footer">
                 <div class="logo__footer">
@@ -114,7 +180,13 @@
     </footer>
     
     <script src="https://kit.fontawesome.com/7fda2717d4.js" crossorigin="anonymous"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/glider-js@1.7.7/glider.min.js"></script>
+    
+    
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    
+    <script src="js/titulo.js"></script>
+    <script src="js/imagenes.js"></script>
     <script src="js/home.js"></script>
-   
 </body>
 </html>
