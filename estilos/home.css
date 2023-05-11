@@ -57,7 +57,7 @@
   
   a:is(:link, :active, :visited).active{
     background: rgb(221, 243, 19);
-    padding: 10px 30px;
+    padding: 10px 20px;
   
     border-radius: 20px;
   }
