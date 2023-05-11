@@ -1,6 +1,6 @@
 /*-----------indicar la pagina que se visita-----------*/
 
-const activePage = window.location.pathname;
+const activePage = window.location.href;
 console.log( window.location)
 
 const navLinks = document.querySelectorAll('nav a').forEach(link=>{
