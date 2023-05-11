@@ -3,7 +3,7 @@
 >##### Integrantes por orden alfabético:
 >* __`Arroyo Flavia`__
 >* __`Cabrera Mariano`__
->* __`Corrijidor Walter Ricardo`__
+>* __`Correjidor Walter Ricardo`__
 >* __`Sanchez Riesco Marco Antonio`__
 
 ## Introducción
@@ -48,15 +48,16 @@ en el Aula Virtual “GIT”.<br>
 
 ## Desarrollo del proyecto
 
-● Se implemento  4 páginas html- HOME / SERVICIOS / QUIENES SOMOS / CONTACTO , se utilizan etiquetas semanticas, íconos de FontAwesome y fuente local  <br>
-● Tematica = Peluqueria-<br> Razon Social = Rita Gimenez Peluqueria Profesional <br>
-● Paginas responsivas utilizando medias query <br>
-● En la pagina de CONTACTO se consume la API Rest desde JavaScript ( google maps) <br>
-● en las paginas HOME y QUIENES SOMOS , el HTML está  maquetada con Flexbox<br>
-● en las paginas HOME y QUIENES SOMOS, se emplean animaciones: En la pagina HOME (index.html)se empleo un carrusel de imagenes (aplicando   -webkit-animation: scroll 40s linear infinite) <br>
+1- Se implemento  4 páginas html- HOME / SERVICIOS / QUIENES SOMOS / CONTACTO , se utilizan etiquetas semanticas, íconos de FontAwesome y fuente local  <br>
+2- Se eligio la tematica = Peluqueria <br> Razon Social = Rita Gimenez Peluqueria Profesional <br>
+3-  Paginas responsivas utilizando medias query <br>
+4- En la pagina de CONTACTO se consume la API Rest desde JavaScript ( google maps) <br>
+5-en las paginas HOME y QUIENES SOMOS , el HTML está  maquetada con Flexbox<br>
+6- en las paginas HOME y QUIENES SOMOS, se emplean animaciones: En la pagina HOME (index.html)se empleo un carrusel de imagenes (aplicando   -webkit-animation: scroll 40s linear infinite) <br>
  un texto animado utilizando la libreria typed.js  <br>
 y cards de promociones que rotan al hacer hover (transform: rotateY(180deg); <br> En la pagina QUIENES SOMOS (quienessomos.html) en la seccion de equipo de trabajo se emplean card que al pasar el cursor por arriba (hover) la clase .content se hace visible  y se emplea  transition-delay: 0.3s;<br>
-● En referencia al diseño. se emplean colores claros y tenues<br>
+7- En referencia al diseño. se emplean colores claros y tenues<br>
+8- El desarrollo web se subió al servidor on-line : GitHub Pages
 
 
 
