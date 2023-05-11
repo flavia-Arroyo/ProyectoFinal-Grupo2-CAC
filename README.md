@@ -6,8 +6,8 @@
 >* __`Correjidor Walter Ricardo`__
 >* __`Sanchez Riesco Marco Antonio`__
 
-## Introducción
-TPO Desarrollo Web-HTML, CSS y Javascript<br>
+
+## TPO Desarrollo Web-HTML, CSS y Javascript<br>
 
 
 ## Consigna del Trabajo Practivo
