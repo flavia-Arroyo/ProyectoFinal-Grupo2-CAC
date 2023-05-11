@@ -10,7 +10,7 @@
 TPO Desarrollo Web-HTML, CSS y Javascript
 
 <br>
-## Consigna
+>#####Consigna
 
 El TPO deberá cumplir con los siguientes requisitos:
 ● Poseer al menos 4 páginas html, siendo su temática libre. En caso de ser un Sitio
