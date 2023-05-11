@@ -54,8 +54,8 @@ en el Aula Virtual “GIT”.<br>
 ● En la pagina de CONTACTO se consume la API Rest desde JavaScript ( google maps) <br>
 ● en las paginas HOME y QUIENES SOMOS , el HTML está  maquetada con Flexbox<br>
 ● en las paginas HOME y QUIENES SOMOS, se emplean animaciones: En la pagina HOME (index.html)se empleo un carrusel de imagenes (aplicando   -webkit-animation: scroll 40s linear infinite) <br>
-tambien se emplea un texto animado utilizando la libreria typed.js
-tambien se empleo cards de promociones (transform: rotateY(180deg);  En la pagina QUIENES SOMOS (quienessomos.html) en la seccion de equipo de trabajo se emplean card que al pasar el cursor por arriba (hover) la clase .content se hace visible  y se emplea  transition-delay: 0.3s;<br>
+ un texto animado utilizando la libreria typed.js  <br>
+y cards de promociones que rotan al hacer hover (transform: rotateY(180deg); <br> En la pagina QUIENES SOMOS (quienessomos.html) en la seccion de equipo de trabajo se emplean card que al pasar el cursor por arriba (hover) la clase .content se hace visible  y se emplea  transition-delay: 0.3s;<br>
 ● En referencia al diseño. se emplean colores claros y tenues<br>
 
 
