@@ -48,7 +48,7 @@ en el Aula Virtual “GIT”.<br>
 
 ## Desarrollo del proyecto
 
-● Se implemento  4 páginas html- HOME / SERVICIOS / QUIENES SOMOS / CONTACTO , se utilizan etiquetas semanticas, se utilizo íconos de FontAwesome, fuente local  <br>
+● Se implemento  4 páginas html- HOME / SERVICIOS / QUIENES SOMOS / CONTACTO , se utilizan etiquetas semanticas, íconos de FontAwesome y fuente local  <br>
 ● Tematica = Peluqueria-<br> Razon Social = Rita Gimenez Peluqueria Profesional <br>
 ● Paginas responsivas utilizando medias query <br>
 ● En la pagina de CONTACTO se consume la API Rest desde JavaScript ( google maps) <br>
