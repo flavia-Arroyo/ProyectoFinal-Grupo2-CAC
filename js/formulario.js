@@ -16,28 +16,27 @@ function validarFormulario(e){
 
 
 form.addEventListener('submit', (event) => {
-  event.preventDefault();
-
-  if (!nombre) {
-    alert('Por favor ingrese su nombre');
-	return;
-  }
-
-  if (!email) {
-    alert('Por favor ingrese su email');
-    return;
-  }
-
-  if (!telefono) {
-    alert('Por favor ingrese su telefono');
-    return;
-  }
-
-  if (!mensaje) {
-    alert('Por favor ingrese su mensaje');
-    return;
-  }
-
+	event.preventDefault();
   
-
-});
+	if (!nombre) {
+	  alert('Por favor ingrese su nombre');
+	  
+	}
+  
+	if (!email) {
+	  alert('Por favor ingrese su email');
+	  return;
+	}
+  
+	if (!telefono) {
+	  alert('Por favor ingrese su telefono');
+	  return;
+	}
+  
+	if (!mensaje) {
+	  alert('Por favor ingrese su mensaje');
+	  return;
+	}
+  
+  });
+  
