@@ -52,16 +52,12 @@ const validarCampo = (expresion, input, campo) => {
         
         document.getElementById(`grupo_${campo}`).classList.remove("formulario_grupo-incorrecto");
         document.getElementById(`grupo_${campo}`).classList.add("formulario_grupo-correcto");
-        //document.querySelector(`#grupo_${campo} i`).classList.add('fa-sharp fa-solid fa-circle-check');
-		//document.querySelector(`#grupo_${campo} i`).classList.remove('fa-solid fa-xmark');
         document.querySelector(`#grupo_${campo} .formulario__input-error`).classList.remove("formulario__input-error-activo");
         campos[campo] = true;
         console.log("Funciona");
     } else {
            document.getElementById(`grupo_${campo}`).classList.add("formulario_grupo-incorrecto");
            document.getElementById(`grupo_${campo}`).classList.remove("formulario_grupo-correcto");
-           //document.querySelector(`#grupo_${campo} i`).classList.add('fa-solid fa-xmark');
-           //document.querySelector(`#grupo_${campo} i`).classList.remove('fa-sharp fa-solid fa-circle-check');
            document.querySelector(`#grupo_${campo} .formulario__input-error`).classList.add("formulario__input-error-activo");
            campos[campo] = false;
            console.log("Funciona");
@@ -84,7 +80,6 @@ $formulario.addEventListener("submit", (e) => {
     e.preventDefault();
 
     if(campos.nombre && campos.apellido &&  campos.correo && campos.telefono ) {
-        // formulario.reset();
 
         document.getElementById("formulario_mensaje-exito").classList.add("formulario_mensaje-exito-activo");
         setTimeout(() => {
