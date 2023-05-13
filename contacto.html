@@ -1,81 +1,175 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/home.css">
+    <!---link a los estilos de la pagina contacto-->
+    <link defer rel="stylesheet" href="estilos/contacto.css">
     <link rel="stylesheet" href="estilos/reset.css">
+   
     <link rel="stylesheet" href="estilos/footer.css">
-    <link rel="stylesheet" type="text/css" href="estilos/formulario.css">
+    <!--<link rel="stylesheet" type="text/css" href="estilos/formulario.css">-->
+ 
     <link rel="stylesheet" href="estilos/titulo.css">
     <script defer src="js/activePage.js"></script>
 
+
     <title>Pagina Contacto</title>
 </head>
+
 <body>
     <header class="header">
-       
-            <div  class="logo">
-                <img src="recursos/logo.png" alt="logoEmpresa">
-            </div>
-            
-            <nav class="nav">
-                <ul class="ul">
-                    <li class="li"><a href="/index.html" class="items">Home</a></li>
-                    <li class="li"><a href="/quienessomos.html" class="items">Quienes Somos</a></li>
-                    <li class="li"><a href="/servicios.html" class="items">Servicios</a></li>
-                    <li class="li"><a href="/contacto.html" class="items">Contacto</a></li>
-    
-                </ul>
-                
-            </nav> 
-            <button class="button">
-                <i class="fa-solid fa-bars icon_menu"></i>
-    
-    
-            </button>
 
-       
-        
-    </header>
-
-        <div class="contenedor">
-            <form id="miFormulario" onsubmit="validarFormulario(event)">
-                <h2 class="contactenos">CONTACTENOS</h2>
-                <label for="nombre">Nombre</label>
-                <input type="text" id="nombre" name="nombre" required>
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email" required>
-                <label for="telefono">Teléfono</label>
-                <input type="number" id="telefono" name="telefono"  required>
-                <label for="mensaje">Mensaje</label>
-                <textarea id="mensaje" name="mensaje" required></textarea>
-                <input type="submit" value="Enviar">
-            </form>
+        <div class="logo">
+            <img src="recursos/logo.png" alt="logoEmpresa">
         </div>
 
-        <div class="mapa">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3405.9095274665433!2d-64.13779472581007!3d-31.389058074274303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943297efcfb9d08d%3A0x7598da3a81623ce5!2sAv.%20las%20Malvinas%202789%2C%20X5012ABF%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1683672386195!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div> 
+        <nav class="nav">
+            <ul class="ul">
+                <li class="li"><a href="/index.html" class="items">Home</a></li>
+                <li class="li"><a href="/quienessomos.html" class="items">Quienes Somos</a></li>
+                <li class="li"><a href="/servicios.html" class="items">Servicios</a></li>
+                <li class="li"><a href="/contacto.html" class="items">Contacto</a></li>
+
+            </ul>
+
+        </nav>
+        <button class="button">
+            <i class="fa-solid fa-bars icon_menu"></i>
+
+
+        </button>
+
+
+
+    </header>
+    <main>
+        <!--<div class="contenedor">
+                <form id="miFormulario" onsubmit="validarFormulario(event)">
+                    <h2 class="contactenos">CONTACTENOS</h2>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" name="nombre" required>
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                    <label for="telefono">Teléfono</label>
+                    <input type="number" id="telefono" name="telefono"  required>
+                    <label for="mensaje">Mensaje</label>
+                    <textarea id="mensaje" name="mensaje" required></textarea>
+                    <input type="submit" value="Enviar">
+                </form>
+            </div>
+
+            <div class="mapa">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3405.9095274665433!2d-64.13779472581007!3d-31.389058074274303!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x943297efcfb9d08d%3A0x7598da3a81623ce5!2sAv.%20las%20Malvinas%202789%2C%20X5012ABF%20C%C3%B3rdoba!5e0!3m2!1ses!2sar!4v1683672386195!5m2!1ses!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div> -->
+
+            <div class="contenedortotal">
+            
+                <!-- FORMULARIO -->
+            
+                <form action="#" class="formulario" id="formulario">
+                
+                    <!-- GRUPO DE NOMBRE -->
         
-   
+                    <div class="formulario_grupo" id="grupo_nombre">
+                        <label class="formulario__label">Nombre</label>
+                        <div class="formulario__grupo-input">
+                            <input type="text" class="formulario__input" name="nombre" id="nombre" placeholder="Daniel ">
+                        
+                        </div>
+                        <p class="formulario__input-error">El nombre debe tener Letras y espacios, pueden llevar acentos..</p>
+                    </div>
+        
+        
+                    <!-- GRUPO DE APELLIDO-->
+                    <div class="formulario_grupo" id="grupo_apellido">
+                        <label class="formulario__label">Apellido</label>
+                        <div class="formulario__grupo-input">
+                            <input type="text" class="formulario__input" name="apellido" id="apellido" placeholder="Salinas">
+                        
+                        </div>
+                        <p class="formulario__input-error">El apellido debe tener Letras y espacios, pueden llevar acentos.</p>
+                    </div>
+        
+        
+        
+        
+        
+        
+                    <!-- GRUPO DE EMAIL -->
+                    <div class="formulario_grupo" id="grupo_correo">
+                        <label class="formulario__label">Correo Electonico</label>
+                        <div class="formulario__grupo-input">
+                            <input type="email" class="formulario__input" name="correo" id="correo"
+                                placeholder="correo@daniel.com">
+                            <!--<i class="formulario__validacion-estado fas fa-times-circle"></i>-->
+                        </div>
+                        <p class="formulario__input-error">El correo debe tener mÍnimo 4 caracteres y sólo se admiten números,
+                            letras y guión bajo.</p>
+                    </div>
+        
+        
+                    <!-- GRUPO DE TELÉFONO -->
+                    <div class="formulario_grupo" id="grupo_telefono">
+                        <label class="formulario__label">Teléfono</label>
+                        <div class="formulario__grupo-input">
+                            <input type="telefono" class="formulario__input" name="telefono" id="telefono"
+                                placeholder="3516745305">
+                        
+                        </div>
+                        <p class="formulario__input-error">El número debe tener 10 digitos sin espacios</p>
+                    </div>
+                    
+                
+        
+        
+                    <!-- MENSAJE DE CAMPOS REQUERIDOS -->
+                    <div class="formulario_mensaje" id="formulario_mensaje">
+                        <p><i class="fas fa-exclamation-circle"> <b>Error:</b> Debes completar todos los campos</i></p>
+                    </div>
+        
+        
+                    <!-- GRUPO ENVIAR -->
+                    <div class="formulario_grupo formulario_grupo-btn-enviar">
+                        <p class="formulario_mensaje-exito" id="formulario_mensaje-exito">El formulario se envió correctamente
+                        </p>
+                        <input class="formulario__btn" type="submit" value="Enviar">
+                    </div>
+                </form>
+                <div class="localizacion">
+                    <h2 class="contactenos">Donde Estamos</h2>
+                    <div id="map">
+        
+        
+                    </div>
+        
+                </div>
+        
+            </div>
+
+    </main>
+  
+</body>
+
     <footer>
         <div class="container__footer">
             <div class="box__footer">
                 <div class="logo__footer">
                     <img src="recursos/logo.png">
                 </div>
-               
+
 
             </div>
             <div class="box__footer">
                 <h2>Datos Contacto</h2>
-               
+
                 <a href="#" class="contacto">
-                    <i class="fa-solid fa-location-dot"></i> 
+                    <i class="fa-solid fa-location-dot"></i>
                     Av. Las malvinas 2789-CBA
-    
+
                 </a>
                 <a href="#" class="contacto">
                     <i class="fa-brands fa-whatsapp fa-beat-fade fa-sm"></i>
@@ -83,37 +177,37 @@
 
                 </a>
                 <a href="#" class="contacto">
-                    <i class="fa-solid fa-envelope"></i> 
+                    <i class="fa-solid fa-envelope"></i>
                     rgpeluqueria@gmail.com
 
                 </a>
-              
-                
+
+
             </div>
             <div class="box__footer">
                 <h2>Horario Atencion</h2>
                 <a href="#" class="contacto">
                     <i class="fa-sharp fa-solid fa-calendar-days"></i>
-                    Dias: Martes a sabado 
-    
+                    Dias: Martes a sabado
+
                 </a>
                 <a href="#" class="contacto">
                     <i class="fa-solid fa-clock"></i>
-                    Horario: 10 hs a 21hs 
-    
+                    Horario: 10 hs a 21hs
+
                 </a>
-                
-              
-                
+
+
+
             </div>
-           
+
             <div class="box__footer">
                 <h2>Redes Sociales</h2>
                 <a href="#"><i class="fa-brands fa-facebook"></i>Facebook</a>
                 <a href="#"><i class="fa-brands fa-twitter"></i>Twitter</a>
                 <a href="#"><i class="fa-brands fa-linkedin"></i>Linkedin</a>
                 <a href="#"><i class="fa-brands fa-instagram"></i>Instagram</a>
-                
+
             </div>
 
 
@@ -127,10 +221,18 @@
         </div>
     </footer>
 
-    
-    <script src="./js/formulario.js"> </script>
-    <script src="./js/formulario.js"></script>
+
+    <!--<script src="./js/formulario.js"> </script>-->
+    <script src="js/validacionform.js"></script>
     <script src="https://kit.fontawesome.com/7fda2717d4.js" crossorigin="anonymous"></script>
+    <script
+        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBlX3u8jKc80LvHmj2tPjUZinePrPVHOiU &callback=initMap&v=weekly"
+        defer></script>
+
     <script src="js/home.js"></script>
+    <script src="js/mapa.js"></script>
+   
+
 </body>
+
 </html>
