@@ -11,7 +11,6 @@
     <link rel="stylesheet" href="estilos/reset.css">
    
     <link rel="stylesheet" href="estilos/footer.css">
-    <!--<link rel="stylesheet" type="text/css" href="estilos/formulario.css">-->
  
     <link rel="stylesheet" href="estilos/titulo.css">
     <script defer src="js/activePage.js"></script>
@@ -54,7 +53,7 @@
             
                 <form action="#" class="formulario" id="formulario">
                 
-                    <!-- GRUPO DE NOMBRE -->
+                    <!-- PARTE NOMBRE -->
         
                     <div class="formulario_grupo" id="grupo_nombre">
                         <label class="formulario__label">Nombre</label>
@@ -66,7 +65,7 @@
                     </div>
         
         
-                    <!-- GRUPO DE APELLIDO-->
+                    <!-- PARTE APELLIDO-->
                     <div class="formulario_grupo" id="grupo_apellido">
                         <label class="formulario__label">Apellido</label>
                         <div class="formulario__grupo-input">
@@ -81,20 +80,19 @@
         
         
         
-                    <!-- GRUPO DE EMAIL -->
+                    <!-- PARTE EMAIL -->
                     <div class="formulario_grupo" id="grupo_correo">
                         <label class="formulario__label">Correo Electonico</label>
                         <div class="formulario__grupo-input">
                             <input type="email" class="formulario__input" name="correo" id="correo"
                                 placeholder="Ingrese su correo aqui">
-                            <!--<i class="formulario__validacion-estado fas fa-times-circle"></i>-->
                         </div>
                         <p class="formulario__input-error">El correo debe tener mÍnimo 4 caracteres y sólo se admiten números,
                             letras y guión bajo.</p>
                     </div>
         
         
-                    <!-- GRUPO DE TELÉFONO -->
+                    <!-- PARTE TELÉFONO -->
                     <div class="formulario_grupo" id="grupo_telefono">
                         <label class="formulario__label">Teléfono</label>
                         <div class="formulario__grupo-input">
@@ -108,13 +106,13 @@
                 
         
         
-                    <!-- MENSAJE DE CAMPOS REQUERIDOS -->
+                    <!-- ERROR CAMPOS REQUERIDOS -->
                     <div class="formulario_mensaje" id="formulario_mensaje">
                         <p><i class="fas fa-exclamation-circle"> <b>Error:</b> Debes completar todos los campos</i></p>
                     </div>
         
         
-                    <!-- GRUPO ENVIAR -->
+                    <!-- ENVIAR FORM -->
                     <div class="formulario_grupo formulario_grupo-btn-enviar">
                         <p class="formulario_mensaje-exito" id="formulario_mensaje-exito">El formulario se envió correctamente
                         </p>

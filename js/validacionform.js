@@ -1,10 +1,9 @@
-// --------- GUARDAMOS NUESTRO FORMULARIO E INPUTS EN CONSTANTES ---------------
 const $formulario = document.getElementById("formulario");
 
 const $inputs = document.querySelectorAll("#formulario input")
 
 
-// --------- OBJETO CON NUESTRAS EXPRESIONES REGULARES ---------------
+// --------- EXPRESIONES REGULARES ---------------
 const expresiones = {
    nombre:  /^[a-zA-ZÀ-ÿ\s]{1,40}$/, // Letras y espacios, pueden llevar acentos.
     apellido:  /^[a-zA-ZÀ-ÿ\s]{1,40}$/, // Letras y espacios, pueden llevar acentos.
@@ -13,7 +12,6 @@ const expresiones = {
 }
 
 
-// -------------- OBJETO CON NUESTROS CAMPOS ----------------------
 const campos = {
     nombre: false,
    apellido: false,
@@ -44,7 +42,7 @@ const validarFormulario = (e) => {
 }
 
 
-// -------------- VALIDAMOS NUESTROS INPUTS ------------------------
+// -------------- VALIDACION DE INPUTS ------------------------
 const validarCampo = (expresion, input, campo) => {
     console.log(expresion, input, campo)
     console.log(expresion.test(input.value))
