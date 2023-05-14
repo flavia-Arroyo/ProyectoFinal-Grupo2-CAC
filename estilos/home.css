@@ -57,7 +57,7 @@
   
   a:is(:link, :active, :visited).active{
     background: rgb(221, 243, 19);
-    padding: 10px 30px;
+    padding: 10px 20px;
   
     border-radius: 20px;
   }
@@ -123,24 +123,12 @@
 
 }
 
-/* ==========================================================================
-	Media Queries
-========================================================================== */
-@media only screen and (max-width: 590px) {
-	.header{
-    flex-wrap: nowrap;
-       
-  }
-  a:is(:link, :active, :visited).active{
-    padding:10px;
-  }
-  
-}
+
 
 /* ==========================================================================
 	Media Queries
 ========================================================================== */
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 700px) {
   .header .button{
     display: block;
     cursor: pointer;
