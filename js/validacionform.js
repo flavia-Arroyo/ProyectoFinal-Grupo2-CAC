@@ -22,7 +22,7 @@ const campos = {
 
 // --------- SWITCH PARA SELECCIONAR EL INPUT DONDE ÉSTE HACIENDO FOCO EL USUARIO  ---------------
 const validarFormulario = (e) => {
-    console.log(e)
+  
     switch(e.target.name) {
         case "nombre":
             validarCampo(expresiones.nombre, e.target, "nombre");
@@ -44,8 +44,7 @@ const validarFormulario = (e) => {
 
 // -------------- VALIDACION DE INPUTS ------------------------
 const validarCampo = (expresion, input, campo) => {
-    console.log(expresion, input, campo)
-    console.log(expresion.test(input.value))
+    
     if (expresion.test(input.value)){
         
         document.getElementById(`grupo_${campo}`).classList.remove("formulario_grupo-incorrecto");
