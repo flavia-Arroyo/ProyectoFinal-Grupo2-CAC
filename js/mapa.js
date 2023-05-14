@@ -4,7 +4,7 @@ function initMap() {
     const coord = { lat:-31.388865741923652,lng: -64.13525198964184  };
     // el mapa centrado
     const map = new google.maps.Map(document.getElementById("map"), {
-      zoom: 10,
+      zoom: 15,
       center: coord,
     });
    
