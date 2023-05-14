@@ -19,13 +19,3 @@ menuOpciones.forEach((li) => {
 })
 
 
-
-
-/*const items = nav.querySelectorAll('.items');
-
-items.forEach((a)=>{
-    a.addEventListener('click', ()=>{
-        a.classList.add('select');
-        console.log(a.toggle)
-    })
-})*/
