@@ -55,7 +55,8 @@ en el Aula Virtual “GIT”.<br>
 5-en las paginas HOME y QUIENES SOMOS , el HTML está  maquetada con Flexbox<br>
 6- en las paginas HOME y QUIENES SOMOS, se emplean animaciones: En la pagina HOME (index.html)se empleo un carrusel de imagenes (aplicando   animation) <br>
  un texto animado utilizando la libreria typed.js  <br>
-y cards de promociones que rotan al hacer hover (transform: rotateY(180deg); <br> En la pagina QUIENES SOMOS (quienessomos.html) en la seccion de equipo de trabajo se emplean card que al pasar el cursor por arriba (hover) la clase .content se hace visible  y se emplea  (transition);<br>
+y cards de promociones que rotan al hacer hover (transform); <br> En la pagina QUIENES SOMOS (quienessomos.html) en la seccion de equipo de trabajo se emplean card que al pasar el cursor por arriba (hover) la clase .content se hace visible  y se emplea  (transition); En la pagina CONTACTO se utiliza GRID
+<br>
 7- En referencia al diseño. se emplean colores claros y tenues<br>
 8- El desarrollo web se subió al servidor on-line : GitHub Pages
 
